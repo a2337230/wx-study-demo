@@ -1,1 +1,8 @@
-/* pages/welcome/welcome.wxss */
+.swiper-items {
+  width: 100%;
+  height: 400rpx;
+}
+.swiper-items image {
+  width: 100%;
+  height: 400rpx;
+}

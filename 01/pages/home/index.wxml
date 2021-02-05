@@ -1,5 +1,6 @@
 <view class="container">
-  <image class="avatar" src="/images/home/avatar.gif"></image>
+  <l-avatar open-data="{{['userAvatarUrl']}}"></l-avatar>
+  <!-- <image class="avatar" src="/images/home/avatar.gif"></image> -->
   <text class="text">启动页</text>
-  <button>开启微信小程序</button>
+  <button style="position: relative; left: 0rpx; top: 484rpx">开启微信小程序</button>
 </view>
