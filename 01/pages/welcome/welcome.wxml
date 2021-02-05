@@ -1,5 +1,12 @@
 <view>
-  <swiper style="width: 100%;height: 400rpx;">
+  <swiper
+   style="width: 100%;height: 400rpx;"
+   indicator-dots
+   autoplay
+   circular
+   interval="{{3000}}"
+   duration="{{180}}"
+  >
     <swiper-item wx:for="{{images}}">
       <view class="swiper-items">
         <image model="aspectFill" src="{{item.img}}"></image>
