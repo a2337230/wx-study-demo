@@ -46,7 +46,9 @@
   "debugOptions": {
     "hidedInDevtools": []
   },
-  "scripts": {},
+  "scripts": {
+    "beforeCompile": ""
+  },
   "isGameTourist": false,
   "condition": {
     "search": {
